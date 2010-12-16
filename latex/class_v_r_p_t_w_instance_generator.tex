@@ -1,0 +1,658 @@
+\hypertarget{class_v_r_p_t_w_instance_generator}{
+\section{VRPTWInstanceGenerator Class Reference}
+\label{class_v_r_p_t_w_instance_generator}\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_v_r_p_t_w_instance_generator_a7cc4b0a35328897bd7e5f014cd6e44d5}{VRPTWInstanceGenerator} ()
+\begin{DoxyCompactList}\small\item\em Default Ctor. \item\end{DoxyCompactList}\item 
+\hyperlink{class_v_r_p_t_w_instance_generator_aaf2bb5deecf86b8133baafe4e6515d68}{$\sim$VRPTWInstanceGenerator} ()
+\begin{DoxyCompactList}\small\item\em Default Destructor. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_aa65c7059aae206ab59d9c2fb07370695}{readDistancesFile} (const char $\ast$distanceFileName)
+\begin{DoxyCompactList}\small\item\em Method that reads the distance between each par of costumers. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a479178c416a2466d348c946f61a393ef}{readTimesFile} (const char $\ast$timeFilename)
+\begin{DoxyCompactList}\small\item\em Method that reads the time between each par of costumers. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a7e1ba90ceeec0538895951baff2f2ed5}{readIds} (const char $\ast$idsFileName)
+\begin{DoxyCompactList}\small\item\em Method that reads the real ids of the costumers. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_af5235f0571082b1113f8e204b3677427}{readPositions} (const char $\ast$idslatlngFileName)
+\begin{DoxyCompactList}\small\item\em Method that reads the position of the costumers. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a6af11e98273c6bc2ed2e49b9152ac8bc}{readTimeWindowsFile} (const char $\ast$fileName)
+\begin{DoxyCompactList}\small\item\em Method that parsers the time windows specifications. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_aadea1f961b19774aef9b911759386cbd}{readDemandsFile} (const char $\ast$fileName)
+\begin{DoxyCompactList}\small\item\em Method that parsers the demands specifications. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a0e93ce63febb5c633ae0f86cae363d49}{readServiceTimesFile} (const char $\ast$fileName)
+\begin{DoxyCompactList}\small\item\em Method that parsers the service times specifications. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_ad4adce8a26eeac9e6078b6fc9799f0b0}{setSize} (unsigned)
+\begin{DoxyCompactList}\small\item\em Sets the size of the instance. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a9182f814b2990d9e95b2f2c1bb5648f0}{setSeed} (const std::string \&, unsigned)
+\begin{DoxyCompactList}\small\item\em Sets the seeds to generate the data for this instance. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a2b9026b7a414b1dd3106b606d5c019fd}{setPrefix} (const std::string \&)
+\begin{DoxyCompactList}\small\item\em Sets the prefix for the output files. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a3925a9cfa6d9c9375767bed51b52b0b9}{generateMatrices} ()
+\begin{DoxyCompactList}\small\item\em Method that generates the distance and time windows matrices with random costumers. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a2c5460f0b07ef3a938c0a15d6554699d}{generateTimeWindows} ()
+\begin{DoxyCompactList}\small\item\em Method that associates a type of time window to each costumer. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a28b3de2125c64ceae449289dbb45b9ee}{generateDemands} ()
+\begin{DoxyCompactList}\small\item\em Method that associates a type of demand to each costumer. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a5ebcc45bd6d1ff9086dcc59bc4affe8d}{generateServiceTimes} ()
+\begin{DoxyCompactList}\small\item\em Method that associates a type of service time to each costumer. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_adec35b7cd8d0dd12d4b53c03a8953d89}{generateAll} ()
+\begin{DoxyCompactList}\small\item\em Method that call all generates. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a833edf6fd5ed003285177416850d5b9c}{printParameters} ()
+\begin{DoxyCompactList}\small\item\em Method to print the parameters. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a4008b8b8efdffc0955e381b4a0e21538}{printTimeMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method to print the time matrix. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a08a6c96594d8832dd10a78256d219e19}{printDistanceMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method to print the distance matrix. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_acde2acde19e5614f1a930300c79adfd7}{printSpecifications} ()
+\begin{DoxyCompactList}\small\item\em Method to print the specifications. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a2d807b74e5311cc18140dab34c368f2d}{print} ()
+\begin{DoxyCompactList}\small\item\em Method that prints all. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a458a9b3b57e0c5dedec5490e73fe8e8e}{printAll} ()
+\begin{DoxyCompactList}\small\item\em Method that prints all. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a83f20670c04333f19dac1b8e7ba89a29}{writeDistanceMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method that writes the distance matrix to a file. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_ad421f66e920122f343388b7cc76df821}{writeTimeMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method that writes the time matrix to a file. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a4e60794b765a408ae825d1793e0d7477}{writeSpecifications} ()
+\begin{DoxyCompactList}\small\item\em Method that writes the specification to a file. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a7549c70d0963392e4a1fea91fcd99780}{writeAll} ()
+\begin{DoxyCompactList}\small\item\em Method that call all writes. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_v_r_p_t_w_instance_generator_a1abe083477cb63ae7bcd548789308357}{getData} (const rawInfoVector \&, unsigned, unsigned)
+\begin{DoxyCompactList}\small\item\em Method that, given a table and 'from' 'to' information, returns the length in time or distance. \item\end{DoxyCompactList}\item 
+unsigned \hyperlink{class_v_r_p_t_w_instance_generator_a9403e90055f5b3d4954e680f1824ce16}{getCategoryRandomly} (double, const accProbabilityType \&)
+\begin{DoxyCompactList}\small\item\em This method will receive a random number generator and a vector of accumulative probability and will return a category. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a9afc1fec37ac72840ea894c430615f1e}{error} (const std::string \&)
+\begin{DoxyCompactList}\small\item\em Method to output errors. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a144b7e9da2be3fa8e9d25ae4f4f9ac2e}{warning} (const std::string \&)
+\begin{DoxyCompactList}\small\item\em Method to output warnings. \item\end{DoxyCompactList}\item 
+unsigned \hyperlink{class_v_r_p_t_w_instance_generator_aed2ef0d942273523273b8c24281fae34}{getPosition} (unsigned)
+\begin{DoxyCompactList}\small\item\em Method to get the position of a costumer within vector. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_a7309b66380f3679a39524fddcc766173}{generateDistanceMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method to generate the distance matrix for this instance. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_v_r_p_t_w_instance_generator_ad90c8d61f3d3d6908775e4196965f67e}{generateTimeMatrix} ()
+\begin{DoxyCompactList}\small\item\em Method to generate the time matrix for this instance. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_v_r_p_t_w_instance_generator_a7cc4b0a35328897bd7e5f014cd6e44d5}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{VRPTWInstanceGenerator}]{\setlength{\rightskip}{0pt plus 5cm}VRPTWInstanceGenerator::VRPTWInstanceGenerator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a7cc4b0a35328897bd7e5f014cd6e44d5}
+
+
+Default Ctor. 
+
+Ctor. It sets default values for data members \hypertarget{class_v_r_p_t_w_instance_generator_aaf2bb5deecf86b8133baafe4e6515d68}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!$\sim$VRPTWInstanceGenerator@{$\sim$VRPTWInstanceGenerator}}
+\index{$\sim$VRPTWInstanceGenerator@{$\sim$VRPTWInstanceGenerator}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{$\sim$VRPTWInstanceGenerator}]{\setlength{\rightskip}{0pt plus 5cm}VRPTWInstanceGenerator::$\sim$VRPTWInstanceGenerator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_aaf2bb5deecf86b8133baafe4e6515d68}
+
+
+Default Destructor. 
+
+Dtor. It does nothing 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_v_r_p_t_w_instance_generator_a9afc1fec37ac72840ea894c430615f1e}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!error@{error}}
+\index{error@{error}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::error (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{ errorMessage}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_a9afc1fec37ac72840ea894c430615f1e}
+
+
+Method to output errors. 
+
+Method that ouputs message and force the exit of the app. 
+\begin{DoxyParams}{Parameters}
+{\em errorMessage} & is the message to be output. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_adec35b7cd8d0dd12d4b53c03a8953d89}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateAll@{generateAll}}
+\index{generateAll@{generateAll}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateAll}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateAll (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_adec35b7cd8d0dd12d4b53c03a8953d89}
+
+
+Method that call all generates. 
+
+Method that invokes serveral other methods to generate the instance. \hypertarget{class_v_r_p_t_w_instance_generator_a28b3de2125c64ceae449289dbb45b9ee}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateDemands@{generateDemands}}
+\index{generateDemands@{generateDemands}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateDemands}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateDemands (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a28b3de2125c64ceae449289dbb45b9ee}
+
+
+Method that associates a type of demand to each costumer. 
+
+Method that generates a vector of size (size) with all the demands. \hypertarget{class_v_r_p_t_w_instance_generator_a7309b66380f3679a39524fddcc766173}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateDistanceMatrix@{generateDistanceMatrix}}
+\index{generateDistanceMatrix@{generateDistanceMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateDistanceMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateDistanceMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_a7309b66380f3679a39524fddcc766173}
+
+
+Method to generate the distance matrix for this instance. 
+
+Method that generates the distance matrix using random ids. \hypertarget{class_v_r_p_t_w_instance_generator_a3925a9cfa6d9c9375767bed51b52b0b9}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateMatrices@{generateMatrices}}
+\index{generateMatrices@{generateMatrices}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateMatrices}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateMatrices (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a3925a9cfa6d9c9375767bed51b52b0b9}
+
+
+Method that generates the distance and time windows matrices with random costumers. 
+
+Method that generates a vector of random ids (size value random ids) and invokes generateDistanceMatrix and \hyperlink{class_v_r_p_t_w_instance_generator_ad90c8d61f3d3d6908775e4196965f67e}{generateTimeMatrix()}. \hypertarget{class_v_r_p_t_w_instance_generator_a5ebcc45bd6d1ff9086dcc59bc4affe8d}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateServiceTimes@{generateServiceTimes}}
+\index{generateServiceTimes@{generateServiceTimes}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateServiceTimes}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateServiceTimes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a5ebcc45bd6d1ff9086dcc59bc4affe8d}
+
+
+Method that associates a type of service time to each costumer. 
+
+Method that generates a vector of size (size) with all the time services. \hypertarget{class_v_r_p_t_w_instance_generator_ad90c8d61f3d3d6908775e4196965f67e}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateTimeMatrix@{generateTimeMatrix}}
+\index{generateTimeMatrix@{generateTimeMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateTimeMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateTimeMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_ad90c8d61f3d3d6908775e4196965f67e}
+
+
+Method to generate the time matrix for this instance. 
+
+Method that generates the travel time matrix using random ids. \hypertarget{class_v_r_p_t_w_instance_generator_a2c5460f0b07ef3a938c0a15d6554699d}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!generateTimeWindows@{generateTimeWindows}}
+\index{generateTimeWindows@{generateTimeWindows}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{generateTimeWindows}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::generateTimeWindows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a2c5460f0b07ef3a938c0a15d6554699d}
+
+
+Method that associates a type of time window to each costumer. 
+
+Method that generates a vector of size (size) with all the time windows. \hypertarget{class_v_r_p_t_w_instance_generator_a9403e90055f5b3d4954e680f1824ce16}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!getCategoryRandomly@{getCategoryRandomly}}
+\index{getCategoryRandomly@{getCategoryRandomly}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{getCategoryRandomly}]{\setlength{\rightskip}{0pt plus 5cm}unsigned VRPTWInstanceGenerator::getCategoryRandomly (
+\begin{DoxyParamCaption}
+\item[{double}]{ randNumber, }
+\item[{const accProbabilityType \&}]{ accProbability}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_a9403e90055f5b3d4954e680f1824ce16}
+
+
+This method will receive a random number generator and a vector of accumulative probability and will return a category. 
+
+Method that given a vector with accumulate probabilities returns the section in which a random number falls. 
+\begin{DoxyParams}{Parameters}
+{\em randNumber} & is the random number we want to know the place it falls in \\
+\hline
+{\em accProbability} & is the vector containing the accumuate probabilities. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the section in which the random number falls. 
+\end{DoxyReturn}
+\hypertarget{class_v_r_p_t_w_instance_generator_a1abe083477cb63ae7bcd548789308357}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!getData@{getData}}
+\index{getData@{getData}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}double VRPTWInstanceGenerator::getData (
+\begin{DoxyParamCaption}
+\item[{const rawInfoVector \&}]{ table, }
+\item[{unsigned}]{ from, }
+\item[{unsigned}]{ to}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_a1abe083477cb63ae7bcd548789308357}
+
+
+Method that, given a table and 'from' 'to' information, returns the length in time or distance. 
+
+Method that given the two first two elements of a table of nx3 returns the third element. 
+\begin{DoxyParams}{Parameters}
+{\em table} & is the matrix in which we want to look for the third element. \\
+\hline
+{\em from} & is the first element or index. \\
+\hline
+{\em to} & is the second element or index. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value of the third element. 
+\end{DoxyReturn}
+\hypertarget{class_v_r_p_t_w_instance_generator_aed2ef0d942273523273b8c24281fae34}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{getPosition}]{\setlength{\rightskip}{0pt plus 5cm}unsigned VRPTWInstanceGenerator::getPosition (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{ id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_aed2ef0d942273523273b8c24281fae34}
+
+
+Method to get the position of a costumer within vector. 
+
+Method that returns the index of a given element (id) within the positions vector 
+\begin{DoxyParams}{Parameters}
+{\em id} & is the id of the element we are looking for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the position (index) within the vector 
+\end{DoxyReturn}
+\hypertarget{class_v_r_p_t_w_instance_generator_a2d807b74e5311cc18140dab34c368f2d}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!print@{print}}
+\index{print@{print}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a2d807b74e5311cc18140dab34c368f2d}
+
+
+Method that prints all. 
+
+Method that invokes all printing methods. \hypertarget{class_v_r_p_t_w_instance_generator_a458a9b3b57e0c5dedec5490e73fe8e8e}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!printAll@{printAll}}
+\index{printAll@{printAll}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{printAll}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::printAll (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a458a9b3b57e0c5dedec5490e73fe8e8e}
+
+
+Method that prints all. 
+
+Method that invokes all printing methods. \hypertarget{class_v_r_p_t_w_instance_generator_a08a6c96594d8832dd10a78256d219e19}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!printDistanceMatrix@{printDistanceMatrix}}
+\index{printDistanceMatrix@{printDistanceMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{printDistanceMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::printDistanceMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a08a6c96594d8832dd10a78256d219e19}
+
+
+Method to print the distance matrix. 
+
+Method that prints the distance matrix. \hypertarget{class_v_r_p_t_w_instance_generator_a833edf6fd5ed003285177416850d5b9c}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!printParameters@{printParameters}}
+\index{printParameters@{printParameters}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{printParameters}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::printParameters (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a833edf6fd5ed003285177416850d5b9c}
+
+
+Method to print the parameters. 
+
+Method that prints the parameters given by the user (debug purposes). \hypertarget{class_v_r_p_t_w_instance_generator_acde2acde19e5614f1a930300c79adfd7}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!printSpecifications@{printSpecifications}}
+\index{printSpecifications@{printSpecifications}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{printSpecifications}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::printSpecifications (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_acde2acde19e5614f1a930300c79adfd7}
+
+
+Method to print the specifications. 
+
+Method that prints the specifications. \hypertarget{class_v_r_p_t_w_instance_generator_a4008b8b8efdffc0955e381b4a0e21538}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!printTimeMatrix@{printTimeMatrix}}
+\index{printTimeMatrix@{printTimeMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{printTimeMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::printTimeMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a4008b8b8efdffc0955e381b4a0e21538}
+
+
+Method to print the time matrix. 
+
+Method that prints the time matrix. \hypertarget{class_v_r_p_t_w_instance_generator_aadea1f961b19774aef9b911759386cbd}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readDemandsFile@{readDemandsFile}}
+\index{readDemandsFile@{readDemandsFile}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readDemandsFile}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readDemandsFile (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ fileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_aadea1f961b19774aef9b911759386cbd}
+
+
+Method that parsers the demands specifications. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fileName} & is the name of the file containing the demands specifications.\\
+\hline
+\end{DoxyParams}
+Method that reads the demand specifications 
+\begin{DoxyParams}{Parameters}
+{\em fileName} & is the path to the file containing the demands specifications. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_aa65c7059aae206ab59d9c2fb07370695}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readDistancesFile@{readDistancesFile}}
+\index{readDistancesFile@{readDistancesFile}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readDistancesFile}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readDistancesFile (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ distanceFileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_aa65c7059aae206ab59d9c2fb07370695}
+
+
+Method that reads the distance between each par of costumers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distanceFileName} & is the name of the file containing the distances.\\
+\hline
+\end{DoxyParams}
+Method that reads the distances from a file between pairs of costumers. 
+\begin{DoxyParams}{Parameters}
+{\em distanceFilanem} & is the path to the file containing the distances information. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a7e1ba90ceeec0538895951baff2f2ed5}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readIds@{readIds}}
+\index{readIds@{readIds}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readIds}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readIds (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ idsFileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a7e1ba90ceeec0538895951baff2f2ed5}
+
+
+Method that reads the real ids of the costumers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distanceFileName} & is the name of the file containing the distances.\\
+\hline
+\end{DoxyParams}
+Method that reads the real ids of the costumers. 
+\begin{DoxyParams}{Parameters}
+{\em idsFilename} & is the path to the file containing the real ids. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_af5235f0571082b1113f8e204b3677427}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readPositions@{readPositions}}
+\index{readPositions@{readPositions}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readPositions}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readPositions (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ idslatlngFileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_af5235f0571082b1113f8e204b3677427}
+
+
+Method that reads the position of the costumers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idslatlngFileName} & is the name of the file containing the distances.\\
+\hline
+\end{DoxyParams}
+Method that reads the real position of the costumers (lat, lng). 
+\begin{DoxyParams}{Parameters}
+{\em idslatlngFilename} & is the path to the file containing the information. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a0e93ce63febb5c633ae0f86cae363d49}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readServiceTimesFile@{readServiceTimesFile}}
+\index{readServiceTimesFile@{readServiceTimesFile}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readServiceTimesFile}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readServiceTimesFile (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ fileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a0e93ce63febb5c633ae0f86cae363d49}
+
+
+Method that parsers the service times specifications. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fileName} & is the name of the file containing the service times specifications.\\
+\hline
+\end{DoxyParams}
+Method that reads the service times specifications. 
+\begin{DoxyParams}{Parameters}
+{\em fieName} & is the path to the file containing the specifications. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a479178c416a2466d348c946f61a393ef}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readTimesFile@{readTimesFile}}
+\index{readTimesFile@{readTimesFile}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readTimesFile}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readTimesFile (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ timeFileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a479178c416a2466d348c946f61a393ef}
+
+
+Method that reads the time between each par of costumers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timeFileName} & is the name of the file containing the times.\\
+\hline
+\end{DoxyParams}
+Method that reads the travel times from a file between pairs of costumers. 
+\begin{DoxyParams}{Parameters}
+{\em timeFileName} & is the path to the file containing the travel time information. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a6af11e98273c6bc2ed2e49b9152ac8bc}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!readTimeWindowsFile@{readTimeWindowsFile}}
+\index{readTimeWindowsFile@{readTimeWindowsFile}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{readTimeWindowsFile}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::readTimeWindowsFile (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{ fileName}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a6af11e98273c6bc2ed2e49b9152ac8bc}
+
+
+Method that parsers the time windows specifications. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fileName} & is the name of the file containing the time windows specifications.\\
+\hline
+\end{DoxyParams}
+Method that reads the time windows specification  fileName is the path to the file containing the time windows specification \hypertarget{class_v_r_p_t_w_instance_generator_a2b9026b7a414b1dd3106b606d5c019fd}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!setPrefix@{setPrefix}}
+\index{setPrefix@{setPrefix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{setPrefix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::setPrefix (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{ prefix}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a2b9026b7a414b1dd3106b606d5c019fd}
+
+
+Sets the prefix for the output files. 
+
+Method to set the prefix for the output files 
+\begin{DoxyParams}{Parameters}
+{\em prefix} & is the prefix of the output files. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a9182f814b2990d9e95b2f2c1bb5648f0}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!setSeed@{setSeed}}
+\index{setSeed@{setSeed}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{setSeed}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::setSeed (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{ object, }
+\item[{unsigned}]{ value}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a9182f814b2990d9e95b2f2c1bb5648f0}
+
+
+Sets the seeds to generate the data for this instance. 
+
+Method to set the value of a seed. 
+\begin{DoxyParams}{Parameters}
+{\em object} & is the name of seed to be set up. \\
+\hline
+{\em value} & is the value to be set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_ad4adce8a26eeac9e6078b6fc9799f0b0}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!setSize@{setSize}}
+\index{setSize@{setSize}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{setSize}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::setSize (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{ size}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_ad4adce8a26eeac9e6078b6fc9799f0b0}
+
+
+Sets the size of the instance. 
+
+Method to set the number of costumers of the instance. 
+\begin{DoxyParams}{Parameters}
+{\em size} & if the number of costumers. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a144b7e9da2be3fa8e9d25ae4f4f9ac2e}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!warning@{warning}}
+\index{warning@{warning}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{warning}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::warning (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{ warningMessage}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_v_r_p_t_w_instance_generator_a144b7e9da2be3fa8e9d25ae4f4f9ac2e}
+
+
+Method to output warnings. 
+
+Method that ouputs a warning message. 
+\begin{DoxyParams}{Parameters}
+{\em warningMessage} & is the message to be output. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_v_r_p_t_w_instance_generator_a7549c70d0963392e4a1fea91fcd99780}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!writeAll@{writeAll}}
+\index{writeAll@{writeAll}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{writeAll}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::writeAll (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a7549c70d0963392e4a1fea91fcd99780}
+
+
+Method that call all writes. 
+
+Method that invokes all writing methods. \hypertarget{class_v_r_p_t_w_instance_generator_a83f20670c04333f19dac1b8e7ba89a29}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!writeDistanceMatrix@{writeDistanceMatrix}}
+\index{writeDistanceMatrix@{writeDistanceMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{writeDistanceMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::writeDistanceMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a83f20670c04333f19dac1b8e7ba89a29}
+
+
+Method that writes the distance matrix to a file. 
+
+Method that creates the file containing the distance matrix. \hypertarget{class_v_r_p_t_w_instance_generator_a4e60794b765a408ae825d1793e0d7477}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!writeSpecifications@{writeSpecifications}}
+\index{writeSpecifications@{writeSpecifications}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{writeSpecifications}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::writeSpecifications (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_a4e60794b765a408ae825d1793e0d7477}
+
+
+Method that writes the specification to a file. 
+
+Method that creates the file containing the specifications. \hypertarget{class_v_r_p_t_w_instance_generator_ad421f66e920122f343388b7cc76df821}{
+\index{VRPTWInstanceGenerator@{VRPTWInstanceGenerator}!writeTimeMatrix@{writeTimeMatrix}}
+\index{writeTimeMatrix@{writeTimeMatrix}!VRPTWInstanceGenerator@{VRPTWInstanceGenerator}}
+\subsubsection[{writeTimeMatrix}]{\setlength{\rightskip}{0pt plus 5cm}void VRPTWInstanceGenerator::writeTimeMatrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_v_r_p_t_w_instance_generator_ad421f66e920122f343388b7cc76df821}
+
+
+Method that writes the time matrix to a file. 
+
+Method that creates the file containing the time matrix. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+vrptwinstancegenerator.h\item 
+vrptwinstancegenerator.cpp\end{DoxyCompactItemize}

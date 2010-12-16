@@ -1,0 +1,22 @@
+= MOVRPTW-Generator - Dataset Generator for Multi-Objective Vehicle Routing Problems with Time Windows.
+
+If you just want the dataset, you can download it from:
+http://dl.dropbox.com/u/4581572/movrptw-instances.zip
+
+Information on how to use the generator can be found in:
+http://dl.dropbox.com/u/4581572/movrptw-info.pdf
+
+== Compiling the code in three steps.
+
+1. Get Qmake: http://en.wikipedia.org/wiki/Qt_(framework)
+2. In the folder containing the source run:
+	qmake --project
+	qmake
+3. And then compile using:
+	make
+
+
+== Contribute
+
+If you want to contribut, please contact me at:
+jpcastrog@gmail.com

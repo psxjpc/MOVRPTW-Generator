@@ -1,0 +1,234 @@
+\hypertarget{class_m_t_rand}{
+\section{MTRand Class Reference}
+\label{class_m_t_rand}\index{MTRand@{MTRand}}
+}
+
+
+Mersenne Twister random number generator.  
+
+
+
+
+{\ttfamily \#include $<$MersenneTwister.h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries N} =  624
+ \}
+\item 
+enum \{ {\bfseries SAVE} =  N + 1
+ \}
+\item 
+\hypertarget{class_m_t_rand_a45478edf9e24dcd2a5164bac3889d6a2}{
+typedef unsigned long {\bfseries uint32}}
+\label{class_m_t_rand_a45478edf9e24dcd2a5164bac3889d6a2}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_m_t_rand_ab4f392e44228a583b7b1a3f036fb2fd0}{
+{\bfseries MTRand} (const uint32 \&oneSeed)}
+\label{class_m_t_rand_ab4f392e44228a583b7b1a3f036fb2fd0}
+
+\item 
+\hypertarget{class_m_t_rand_a380e79e0192b46426abcefa6e2dd082e}{
+{\bfseries MTRand} (uint32 $\ast$const bigSeed, uint32 const seedLength=N)}
+\label{class_m_t_rand_a380e79e0192b46426abcefa6e2dd082e}
+
+\item 
+\hypertarget{class_m_t_rand_a76d129a2d850c24ff4a0613f299cf3a5}{
+double {\bfseries rand} ()}
+\label{class_m_t_rand_a76d129a2d850c24ff4a0613f299cf3a5}
+
+\item 
+\hypertarget{class_m_t_rand_a7a47382fb7b19ae1f330691735dc800b}{
+double {\bfseries rand} (const double \&n)}
+\label{class_m_t_rand_a7a47382fb7b19ae1f330691735dc800b}
+
+\item 
+\hypertarget{class_m_t_rand_afd05e468983b3a3d66ce0f403bd666af}{
+double {\bfseries randExc} ()}
+\label{class_m_t_rand_afd05e468983b3a3d66ce0f403bd666af}
+
+\item 
+\hypertarget{class_m_t_rand_a2955abdb96e6cab97e50ac755d48dad1}{
+double {\bfseries randExc} (const double \&n)}
+\label{class_m_t_rand_a2955abdb96e6cab97e50ac755d48dad1}
+
+\item 
+\hypertarget{class_m_t_rand_a4d3a475aa72fe6d1a6d7d9e16d6a732e}{
+double {\bfseries randDblExc} ()}
+\label{class_m_t_rand_a4d3a475aa72fe6d1a6d7d9e16d6a732e}
+
+\item 
+\hypertarget{class_m_t_rand_a587c90f52c35fa2bf05d34791dd5457e}{
+double {\bfseries randDblExc} (const double \&n)}
+\label{class_m_t_rand_a587c90f52c35fa2bf05d34791dd5457e}
+
+\item 
+\hypertarget{class_m_t_rand_ad1008efd4fe0e8aae30459c2c58cfe35}{
+uint32 {\bfseries randInt} ()}
+\label{class_m_t_rand_ad1008efd4fe0e8aae30459c2c58cfe35}
+
+\item 
+\hypertarget{class_m_t_rand_a18ea21f615df06c9359c34d2eba6f252}{
+uint32 {\bfseries randInt} (const uint32 \&n)}
+\label{class_m_t_rand_a18ea21f615df06c9359c34d2eba6f252}
+
+\item 
+\hypertarget{class_m_t_rand_abbb87a08d622d58fdee0eea4cb5471a0}{
+double {\bfseries operator()} ()}
+\label{class_m_t_rand_abbb87a08d622d58fdee0eea4cb5471a0}
+
+\item 
+\hypertarget{class_m_t_rand_a15f4daf79febbe4ff43c3e6ce2c4fcbe}{
+double {\bfseries rand53} ()}
+\label{class_m_t_rand_a15f4daf79febbe4ff43c3e6ce2c4fcbe}
+
+\item 
+\hypertarget{class_m_t_rand_af759d1f30d4f29a715e6f6e86850b5c4}{
+double {\bfseries randNorm} (const double \&mean=0.0, const double \&variance=0.0)}
+\label{class_m_t_rand_af759d1f30d4f29a715e6f6e86850b5c4}
+
+\item 
+\hypertarget{class_m_t_rand_a1e21a79e0a30225fffe924229e34a923}{
+void {\bfseries seed} (const uint32 oneSeed)}
+\label{class_m_t_rand_a1e21a79e0a30225fffe924229e34a923}
+
+\item 
+\hypertarget{class_m_t_rand_a5758103776b131e8ea46b6dc1b9fb267}{
+void {\bfseries seed} (uint32 $\ast$const bigSeed, const uint32 seedLength=N)}
+\label{class_m_t_rand_a5758103776b131e8ea46b6dc1b9fb267}
+
+\item 
+\hypertarget{class_m_t_rand_ad88ea3363d55bafb62826bbd130279c2}{
+void {\bfseries seed} ()}
+\label{class_m_t_rand_ad88ea3363d55bafb62826bbd130279c2}
+
+\item 
+\hypertarget{class_m_t_rand_ad60e0f3f5c90baab75b74f9a2ccae871}{
+void {\bfseries save} (uint32 $\ast$saveArray) const }
+\label{class_m_t_rand_ad60e0f3f5c90baab75b74f9a2ccae871}
+
+\item 
+\hypertarget{class_m_t_rand_a8302e9a8cd16d8dfc536a85bf2f68be0}{
+void {\bfseries load} (uint32 $\ast$const loadArray)}
+\label{class_m_t_rand_a8302e9a8cd16d8dfc536a85bf2f68be0}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries M} =  397
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_m_t_rand_a9b9a20998f5c805af6301ce5c37dcfc3}{
+void {\bfseries initialize} (const uint32 oneSeed)}
+\label{class_m_t_rand_a9b9a20998f5c805af6301ce5c37dcfc3}
+
+\item 
+\hypertarget{class_m_t_rand_a1d5fcb69d83f4d2fd653883c8352f86c}{
+void {\bfseries reload} ()}
+\label{class_m_t_rand_a1d5fcb69d83f4d2fd653883c8352f86c}
+
+\item 
+\hypertarget{class_m_t_rand_a0f44969adf5a2991ad73b8bc4608c5c7}{
+uint32 {\bfseries hiBit} (const uint32 \&u) const }
+\label{class_m_t_rand_a0f44969adf5a2991ad73b8bc4608c5c7}
+
+\item 
+\hypertarget{class_m_t_rand_a440ff2c31889aa6dde5babbe862a9e14}{
+uint32 {\bfseries loBit} (const uint32 \&u) const }
+\label{class_m_t_rand_a440ff2c31889aa6dde5babbe862a9e14}
+
+\item 
+\hypertarget{class_m_t_rand_a9032b296e470bed53280a452e55203b7}{
+uint32 {\bfseries loBits} (const uint32 \&u) const }
+\label{class_m_t_rand_a9032b296e470bed53280a452e55203b7}
+
+\item 
+\hypertarget{class_m_t_rand_ae7eb1282079e30b0a4a526cb86f8c2a2}{
+uint32 {\bfseries mixBits} (const uint32 \&u, const uint32 \&v) const }
+\label{class_m_t_rand_ae7eb1282079e30b0a4a526cb86f8c2a2}
+
+\item 
+\hypertarget{class_m_t_rand_af1219020248cb80b772d64e2b6151a9c}{
+uint32 {\bfseries twist} (const uint32 \&m, const uint32 \&s0, const uint32 \&s1) const }
+\label{class_m_t_rand_af1219020248cb80b772d64e2b6151a9c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_m_t_rand_a486885d03f38c844315d002e6312fa23}{
+static uint32 {\bfseries hash} (time\_\-t t, clock\_\-t c)}
+\label{class_m_t_rand_a486885d03f38c844315d002e6312fa23}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_m_t_rand_a2c87f537429bf0b0f6a452c22b9eebba}{
+uint32 {\bfseries state} \mbox{[}N\mbox{]}}
+\label{class_m_t_rand_a2c87f537429bf0b0f6a452c22b9eebba}
+
+\item 
+\hypertarget{class_m_t_rand_a2b80858137c88fe69d4d2bdc665bcf93}{
+uint32 $\ast$ {\bfseries pNext}}
+\label{class_m_t_rand_a2b80858137c88fe69d4d2bdc665bcf93}
+
+\item 
+\hypertarget{class_m_t_rand_a98eabf568c88f121e44f487397f32495}{
+int {\bfseries left}}
+\label{class_m_t_rand_a98eabf568c88f121e44f487397f32495}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_m_t_rand_a059061d50a1e54ee3067d4e1dbdd7c64}{
+std::ostream \& {\bfseries operator$<$$<$} (std::ostream \&os, const \hyperlink{class_m_t_rand}{MTRand} \&mtrand)}
+\label{class_m_t_rand_a059061d50a1e54ee3067d4e1dbdd7c64}
+
+\item 
+\hypertarget{class_m_t_rand_a45b02a702835a3be42171c5c2dc79b2d}{
+std::istream \& {\bfseries operator$>$$>$} (std::istream \&is, \hyperlink{class_m_t_rand}{MTRand} \&mtrand)}
+\label{class_m_t_rand_a45b02a702835a3be42171c5c2dc79b2d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Mersenne Twister random number generator. \hyperlink{_mersenne_twister_8h_source}{MersenneTwister.h} Mersenne Twister random number generator -\/-\/ a C++ class \hyperlink{class_m_t_rand}{MTRand} Based on code by Makoto Matsumoto, Takuji Nishimura, and Shawn Cokus Richard J. Wagner v1.0 15 May 2003 \href{mailto:rjwagner@writeme.com}{\tt rjwagner@writeme.com}
+
+The Mersenne Twister is an algorithm for generating random numbers. It was designed with consideration of the flaws in various other generators. The period, 2$^\wedge$19937-\/1, and the order of equidistribution, 623 dimensions, are far greater. The generator is also fast; it avoids multiplication and division, and it benefits from caches and pipelines. For more information see the inventors' web page at \href{http://www.math.keio.ac.jp/~matumoto/emt.html}{\tt http://www.math.keio.ac.jp/$\sim$matumoto/emt.html}
+
+Reference M. Matsumoto and T. Nishimura, \char`\"{}Mersenne Twister: A 623-\/Dimensionally
+  Equidistributed Uniform Pseudo-\/Random Number Generator\char`\"{}, ACM Transactions on Modeling and Computer Simulation, Vol. 8, No. 1, January 1998, pp 3-\/30.
+
+Copyright (C) 1997 -\/ 2002, Makoto Matsumoto and Takuji Nishimura, Copyright (C) 2000 -\/ 2003, Richard J. Wagner All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. The names of its contributors may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \char`\"{}AS IS\char`\"{} AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The original code included the following notice:
+
+When you use this, send an email to: \href{mailto:matumoto@math.keio.ac.jp}{\tt matumoto@math.keio.ac.jp} with an appropriate reference to your work.
+
+It would be nice to CC: \href{mailto:rjwagner@writeme.com}{\tt rjwagner@writeme.com} and \href{mailto:Cokus@math.washington.edu}{\tt Cokus@math.washington.edu} when you write. 
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+MersenneTwister.h\end{DoxyCompactItemize}

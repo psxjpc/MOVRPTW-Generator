@@ -1,0 +1,57 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}MTRand Class Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{4}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}tData Struct Reference}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}tDemand Struct Reference}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}tDemandCostumer Struct Reference}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{6}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}tPos Struct Reference}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{7}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}tServiceTimeCostumer Struct Reference}{7}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Detailed Description}{7}{subsection.2.6.1}
+\contentsline {section}{\numberline {2.7}tSolomon Struct Reference}{7}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{8}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.8}tTimeWindow Struct Reference}{8}{section.2.8}
+\contentsline {section}{\numberline {2.9}tTimeWindowCostumer Struct Reference}{8}{section.2.9}
+\contentsline {section}{\numberline {2.10}tTimeWindowDepot Struct Reference}{9}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Detailed Description}{9}{subsection.2.10.1}
+\contentsline {section}{\numberline {2.11}VRPTWInstanceGenerator Class Reference}{9}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Constructor \& Destructor Documentation}{12}{subsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.1.1}VRPTWInstanceGenerator}{12}{subsubsection.2.11.1.1}
+\contentsline {subsubsection}{\numberline {2.11.1.2}$\sim $VRPTWInstanceGenerator}{12}{subsubsection.2.11.1.2}
+\contentsline {subsection}{\numberline {2.11.2}Member Function Documentation}{12}{subsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.2.1}error}{12}{subsubsection.2.11.2.1}
+\contentsline {subsubsection}{\numberline {2.11.2.2}generateAll}{12}{subsubsection.2.11.2.2}
+\contentsline {subsubsection}{\numberline {2.11.2.3}generateDemands}{12}{subsubsection.2.11.2.3}
+\contentsline {subsubsection}{\numberline {2.11.2.4}generateDistanceMatrix}{12}{subsubsection.2.11.2.4}
+\contentsline {subsubsection}{\numberline {2.11.2.5}generateMatrices}{13}{subsubsection.2.11.2.5}
+\contentsline {subsubsection}{\numberline {2.11.2.6}generateServiceTimes}{13}{subsubsection.2.11.2.6}
+\contentsline {subsubsection}{\numberline {2.11.2.7}generateTimeMatrix}{13}{subsubsection.2.11.2.7}
+\contentsline {subsubsection}{\numberline {2.11.2.8}generateTimeWindows}{13}{subsubsection.2.11.2.8}
+\contentsline {subsubsection}{\numberline {2.11.2.9}getCategoryRandomly}{13}{subsubsection.2.11.2.9}
+\contentsline {subsubsection}{\numberline {2.11.2.10}getData}{13}{subsubsection.2.11.2.10}
+\contentsline {subsubsection}{\numberline {2.11.2.11}getPosition}{14}{subsubsection.2.11.2.11}
+\contentsline {subsubsection}{\numberline {2.11.2.12}print}{14}{subsubsection.2.11.2.12}
+\contentsline {subsubsection}{\numberline {2.11.2.13}printAll}{14}{subsubsection.2.11.2.13}
+\contentsline {subsubsection}{\numberline {2.11.2.14}printDistanceMatrix}{14}{subsubsection.2.11.2.14}
+\contentsline {subsubsection}{\numberline {2.11.2.15}printParameters}{14}{subsubsection.2.11.2.15}
+\contentsline {subsubsection}{\numberline {2.11.2.16}printSpecifications}{15}{subsubsection.2.11.2.16}
+\contentsline {subsubsection}{\numberline {2.11.2.17}printTimeMatrix}{15}{subsubsection.2.11.2.17}
+\contentsline {subsubsection}{\numberline {2.11.2.18}readDemandsFile}{15}{subsubsection.2.11.2.18}
+\contentsline {subsubsection}{\numberline {2.11.2.19}readDistancesFile}{15}{subsubsection.2.11.2.19}
+\contentsline {subsubsection}{\numberline {2.11.2.20}readIds}{15}{subsubsection.2.11.2.20}
+\contentsline {subsubsection}{\numberline {2.11.2.21}readPositions}{16}{subsubsection.2.11.2.21}
+\contentsline {subsubsection}{\numberline {2.11.2.22}readServiceTimesFile}{16}{subsubsection.2.11.2.22}
+\contentsline {subsubsection}{\numberline {2.11.2.23}readTimesFile}{16}{subsubsection.2.11.2.23}
+\contentsline {subsubsection}{\numberline {2.11.2.24}readTimeWindowsFile}{17}{subsubsection.2.11.2.24}
+\contentsline {subsubsection}{\numberline {2.11.2.25}setPrefix}{17}{subsubsection.2.11.2.25}
+\contentsline {subsubsection}{\numberline {2.11.2.26}setSeed}{17}{subsubsection.2.11.2.26}
+\contentsline {subsubsection}{\numberline {2.11.2.27}setSize}{17}{subsubsection.2.11.2.27}
+\contentsline {subsubsection}{\numberline {2.11.2.28}warning}{18}{subsubsection.2.11.2.28}
+\contentsline {subsubsection}{\numberline {2.11.2.29}writeAll}{18}{subsubsection.2.11.2.29}
+\contentsline {subsubsection}{\numberline {2.11.2.30}writeDistanceMatrix}{18}{subsubsection.2.11.2.30}
+\contentsline {subsubsection}{\numberline {2.11.2.31}writeSpecifications}{18}{subsubsection.2.11.2.31}
+\contentsline {subsubsection}{\numberline {2.11.2.32}writeTimeMatrix}{18}{subsubsection.2.11.2.32}
