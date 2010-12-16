@@ -10,7 +10,7 @@ http://dl.dropbox.com/u/4581572/movrptw-info.pdf
 
 1. Get Qmake: http://en.wikipedia.org/wiki/Qt_(framework)
 2. In the folder containing the source run:
-	qmake --project
+	qmake -project
 	qmake
 3. And then compile using:
 	make
