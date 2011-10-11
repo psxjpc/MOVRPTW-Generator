@@ -2,16 +2,18 @@
 
 If you just want the dataset, you can download it from:
 
-1) New version of the dataset!
+1) Dataset used in:
+Study of Multi-objective Vehicle Routing - OR53 (Nottingham 2011)
+
 	- 30 instances
 	- 100 customers
 
 Link: http://dl.dropbox.com/u/4581572/movrptw-instances.zip
 
-2) Dataset presented in: 
+2) Dataset used in: 
 
 Nature of Real-World Multi-objective Problem Vehicle Routing with Evolutionary Algorithms - 
-The 2011 IEEE International Conference on Systems, Man, and Cybernetics
+The 2011 IEEE International Conference on Systems, Man, and Cybernetics (Alaska 2011)
 
 	- 40 instances
 	- 50 / 150 / 250 customers
