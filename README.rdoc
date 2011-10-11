@@ -1,7 +1,22 @@
 = MOVRPTW-Generator - Dataset Generator for Multi-Objective Vehicle Routing Problems with Time Windows.
 
 If you just want the dataset, you can download it from:
-http://dl.dropbox.com/u/4581572/movrptw-instances.zip
+
+1) New version of the dataset!
+	- 30 instances
+	- 100 customers
+
+Link: http://dl.dropbox.com/u/4581572/movrptw-instances.zip
+
+2) Dataset presented in: 
+
+Nature of Real-World Multi-objective Problem Vehicle Routing with Evolutionary Algorithms - 
+The 2011 IEEE International Conference on Systems, Man, and Cybernetics
+
+	- 40 instances
+	- 50 / 150 / 250 customers
+
+Link: http://dl.dropbox.com/u/4581572/movrptw-instances-IEEE.zip
 
 Information on how to use the generator can be found in:
 http://dl.dropbox.com/u/4581572/movrptw-info.pdf
